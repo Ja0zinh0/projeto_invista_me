@@ -1,0 +1,6 @@
+<form action="{% url 'investimento_registrado' %}" method="POST">
+    {% csrf__token %}
+    <label for="">tipo de investimento</label>
+    <input type="text" name="Tipoinvestimento">
+    <button type="submit">Salvar</button>
+</form>
